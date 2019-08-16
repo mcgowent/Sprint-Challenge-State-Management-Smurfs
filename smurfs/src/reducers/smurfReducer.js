@@ -2,6 +2,7 @@ import {
     FETCH_SMURF_DATA_START,
     FETCH_SMURF_DATA_SUCCESS,
     FETCH_SMURF_DATA_FAILURE,
+
 } from '../actions';
 
 
@@ -34,6 +35,8 @@ export const reducer = (state = initialState, action) => {
                 isLoading: false,
                 error: action.payload
             };
+
+
         default:
             return state;
     }
