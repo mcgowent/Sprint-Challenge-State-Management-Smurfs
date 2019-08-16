@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SmurfCard = () => {
+const SmurfCard = (props) => {
     return (
-        <p>Inside of SmurfCard</p>
+        <p>{props.smurf.name}</p>
     )
 }
 
